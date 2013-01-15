@@ -29,8 +29,7 @@ welcome = Content.create(
 	author: shelly,
 	contentsType: 'message',
 	headline: 'Welcome message from Sandra',
-	text:'<p>I''m Sandra, one of your RHS Health Advocates here to support you in your quest for a healthier, fuller, life. The more you use RHS, the smarter we will get in providing you a personalized health expierence and better care, so let''s get started.</p> 
-	<p>Go ahead and click on the the "Done" button and let''s get to know each other a bit better</p>'
+	text:'<p>I''m Sandra, one of your RHS Health Advocates here to support you in your quest for a healthier, fuller, life. The more you use RHS, the smarter we will get in providing you a personalized health expierence and better care</p>'
 	)
 
 bpWeather = Content.create(
