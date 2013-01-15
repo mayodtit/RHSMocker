@@ -22,7 +22,7 @@ shelly  = Author.create(name: "Shelly Norman", imageURL: "shelly.png", shortName
 installed = Content.create(
 	author: shelly,
 	contentsType: 'message',
-	headline: "Installed RHS"
+	headline: "Installed RHS",
 	text:"Installed RHS")
 
 welcome = Content.create( 
