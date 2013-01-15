@@ -37,8 +37,7 @@ bpWeather = Content.create(
 	author: sheldon, 
 	contentsType: 'article',
 	headline: "Weather alert: Low Temps and your Blood Pressure.",
-	text:"<p>Blood pressure generally is higher in the winter and lower in the summer. That's because low temperatures cause your blood vessels to narrow, which increases blood pressure because more pressure is needed to force blood through your narrowed veins and arteries.</p>
-<p>In addition to cold weather, blood pressure may also be affected by a sudden change in weather patterns, such as a weather front or a storm. Your body, and blood vessels, may react to abrupt changes in humidity, atmospheric pressure, cloud cover or wind in much the same way it reacts to cold. These weather-related variations in blood pressure are more common in people age 65 and older.</p>")
+	text:"<p>Blood pressure generally is higher in the winter because low temperatures cause your blood vessels to narrow, which increases blood pressure because more pressure is needed to force blood through your narrowed veins and arteries.</p>")
 
 nancyReadInstalled = UserReading.create(completed_date:Time.now, user:nancy, content:installed)
 nancyReadWelcome = UserReading.create(completed_date:Time.now, user:nancy, content:welcome)
