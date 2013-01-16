@@ -11,6 +11,10 @@ def readContent
 	contentList.uniq!
 	
 	contentList.each do | content |
+		if !content.completedDate.nil?
+			content.completedDate = ActiveSupport::TimeWithZone.new(nil, Time.zone, DateTime.parse(content.completedDate))
+		end
+
 		if !content.text.nil?
 
 		item = "<html><head></head><body>"

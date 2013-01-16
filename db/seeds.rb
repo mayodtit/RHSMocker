@@ -38,8 +38,8 @@ bpWeather = Content.create(
 	headline: "Weather alert: Low Temps and your Blood Pressure.",
 	text:"<p>Blood pressure generally is higher in the winter because low temperatures cause your blood vessels to narrow, which increases blood pressure because more pressure is needed to force blood through your narrowed veins and arteries.</p>")
 
-nancyReadInstalled = UserReading.create(completed_date:Time.now, user:nancy, content:installed)
-nancyReadWelcome = UserReading.create(completed_date:Time.now, user:nancy, content:welcome)
+nancyReadInstalled = UserReading.create(completed_date:Time.zone.now.iso8601, user:nancy, content:installed)
+nancyReadWelcome = UserReading.create(completed_date:Time.zone.now.iso8601, user:nancy, content:welcome)
 nancyUnreadBPWeather = UserReading.create(user:nancy, content:bpWeather)
 
 # bobReadInstalled = UserReading.create(completed_date:Time.now, user:bob, content:installed)
