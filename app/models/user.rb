@@ -11,6 +11,9 @@ def readContent
 	contentList.uniq!
 	
 	contentList.each do | content |
+
+		puts content.headline + content.completedDate
+
 		if !content.completedDate.nil?
 			content.completedDate = ActiveSupport::TimeWithZone.new(nil, Time.zone, DateTime.parse(content.completedDate))
 		end
