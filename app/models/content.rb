@@ -20,10 +20,10 @@ class Content < ActiveRecord::Base
   		if !author.imageURL.empty?
   			item += "<div class=""authorPicture"" style=""float:left""><img src=""/assets/" + author.imageURL + "/></div>"
   		end
-  		item +="<div class=""articleAuthor"">From " + author.name + "</div>" 
+  		item +="<div class=""content_subtitle"">From " + author.name + "</div>" 
   	end
 
-  	item += "<div class=""articleBody"">" + text + "</div>"
+  	item += "<div class=""content_text"">" + text + "</div>"
   	item += "</body></html>"
 
   end

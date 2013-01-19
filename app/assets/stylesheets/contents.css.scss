@@ -1,3 +1,32 @@
 // Place all the styles related to the Contents controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// Source text: ITC Franklin Gothic Medium Condensed, 30 px, #f27522
+div.content_source {
+	font-family:"ITC Franklin Gothic Medium Condensed";
+	font-size:"30px";
+	color:"#f27522";
+}
+
+//Article title text: ITC Franklin Gothic Medium Condensed, 44 px, #4c4c4c
+div.content_title {
+	font-family:"ITC Franklin Gothic Medium Condensed";
+	font-size:"44px";
+	color:"#4c4c4c";
+}
+
+//Date/author text: ITC Franklin Gothic Book Condensed, 28 px, #999999
+div.content_subtitle {
+	font-family:"ITC Franklin Gothic Book Condensed";
+	font-size:"28px";
+	color:"#999999";
+}
+
+//Article body text: ITC Franklin Gothic Book Condensed, 34 px, #4c4c4c
+div.content_text {
+	font-family:"ITC Franklin Gothic Book Condensed";
+	font-size:"34px";
+	color:"#4c4c4c";
+}

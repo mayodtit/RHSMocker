@@ -16,10 +16,13 @@ class UsersController < ApplicationController
     @user = User.includes(:contents).find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html { render html: @user.readContent }
       format.json { render json: @user.readContent }
     end
   end
+
+
+
 
   # GET /users/new
   # GET /users/new.json

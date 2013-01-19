@@ -5,10 +5,10 @@
 </p>
 
 <p>
-  <% @user.readContent.each do | content | %>
-  	<b> <%= content.headline %></b>
-  	<b> <%= content.completedDate %> </b>
-  	<p> <%= content.text %> </p>
+  <% @user.readContent.each do | readingItem | %>
+  	<b> <%= readingItem.content.headline %></b>
+  	<b> <%= readingItem.completed_date %> </b>
+  	<p> <%= readingItem.content.text %> </p>
   	<% end %>
 </p>
 
