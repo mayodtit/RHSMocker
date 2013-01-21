@@ -82,10 +82,25 @@ class UsersController < ApplicationController
   #   end
   # end
 
-  def markAsRead
+  def read
     @user = User.find(params[:id])
+    @content = Content.find(params[:contentId])
 
+    @user.markRead(@content)
+  end
 
+  def dismiss
+    @user = User.find(params[:id])
+    @content = Content.find(params[:contentId])
+
+    @user.markDismissed(@content)
+  end
+
+  def later
+    @user = User.find(params[:id])
+    @content = Content.find(params[:contentId])
+
+    @user.markReadLater(@content)
   end
 
 end

@@ -6,9 +6,12 @@
 
 <p>
   <% @user.readContent.each do | readingItem | %>
-  	<b> <%= readingItem.content.headline %></b>
-  	<b> <%= readingItem.completed_date %> </b>
-  	<p> <%= readingItem.content.text %> </p>
+  	<%= @user.firstName %>&nbsp;has&nbsp;
+  	<% if readingItem.read_date.to_s.nil? %>
+  		 not&nbsp; 
+  	<% end %>read&nbsp;
+  	<%= readingItem.content.headline %>
+  	<br>
   	<% end %>
 </p>
 

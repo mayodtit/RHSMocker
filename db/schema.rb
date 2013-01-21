@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130114034458) do
+ActiveRecord::Schema.define(:version => 20130121200025) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -23,19 +23,22 @@ ActiveRecord::Schema.define(:version => 20130114034458) do
 
   create_table "contents", :force => true do |t|
     t.string   "headline"
-    t.string   "text"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.string   "text",         :limit => 25000
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
     t.integer  "author_id"
     t.string   "contentsType"
   end
 
   create_table "user_readings", :force => true do |t|
-    t.datetime "completed_date"
+    t.datetime "read_date"
     t.integer  "user_id"
     t.integer  "content_id"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
+    t.datetime "read_later_date"
+    t.integer  "read_later_count", :default => 0
+    t.datetime "dismiss_date"
   end
 
   create_table "users", :force => true do |t|

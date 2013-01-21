@@ -1,38 +1,55 @@
-	class User < ActiveRecord::Base
-	  attr_accessible :birthDate, :firstName, :gender, :lastName
+class User < ActiveRecord::Base
+	attr_accessible :birthDate, :firstName, :gender, :lastName
 
-	  has_many :user_readings
+	has_many :user_readings
 
-	  has_many :contents, :through => :user_readings
+	has_many :contents, :through => :user_readings
 
 	def readContent
 		readingList = Array.new
 		self.user_readings.includes(:content).each do |reading|
 
-			reading.content
-
 			if !reading.content.text.nil?
-
-				item = "<html><head><link href=""/assets/application.css"" rel=""stylesheet"" type=""text/css""></head><body>"
-
-		  		if !reading.content.author_id.nil?
-		  			author = Author.find(reading.content.author_id)
-		  			if !author.imageURL.empty?
-		  				item += "<div class=""authorPicture"" style=""float:left""><img src=""/assets/" + author.imageURL + "/></div>"
-		  			end
-		  			item +="<div class=""content_subtitle""> " + reading.content.created_at.to_s + "&nbsp;|&nbsp;By " + author.name + "</div>" 
-		  		end
-
-		  		item += "<div class=""content_text"">" + reading.content.text + "</div>"
-		  		item += "</body></html>"
-
-		  		reading.content.text = item
-
-	  		end
-	  		readingList << reading
+				reading.content.text = reading.content.formatArticle
+			end
+			readingList << reading
 		end
-		
+
 		readingList 
 	end
 
+	def markRead(content)
+		userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
+		if userReadings.size == 1 and userReadings.first.read_date.nil?
+			userReading = userReadings.first 
+			userReading.read_date = Time.now
+			userReading.save!
+		else
+			#throw an error on the size or skip on the already read
+		end
 	end
+
+	def markDismissed(content)
+		userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
+		if userReadings.size == 1 and userReadings.first.dismiss_date.nil? and userReadings.first.read_date.nil?
+			userReading = userReadings.first 
+			userReading.dismiss_date = Time.now
+			userReading.save!
+		else
+			#throw an error on the size or skip on the already dismissed
+		end
+	end
+
+	def markReadLater(content)
+		userReadings = UserReading.where("user_id = ? AND content_id = ?", self.id, content.id)
+		if userReadings.size == 1 and userReadings.first.read_date.nil?
+			userReading = userReadings.first 
+			userReading.read_later_date, = Time.now
+			userReading.read_later_count = userReading.read_later_count + 1 #no ++ incrementor sucks
+			userReading.save!
+		else
+			#throw an error on the size or skip on the already read
+		end
+	end
+
+end

@@ -1,31 +1,26 @@
 class Content < ActiveRecord::Base
-  	attr_accessible :headline, :text, :author, :contentsType
-  	
-  	belongs_to :author
-  	
-  	has_many :user_readings
+	attr_accessible :headline, :text, :author, :contentsType
 
-  	has_many :users, 
-  				:through => :user_readings, 
-  				:select => "users.*, user_readings.completed_date AS completedDate"
+	belongs_to :author
 
-  def from
-  	attributedHeadine = author.shortName + " has a message for you about " + headline
-  end
+	has_many :user_readings
 
-  def article
-  	item = "<html><head></head><body>"
+	has_many :users, 
+			:through => :user_readings, 
+			:select => "users.*, user_readings.completed_date AS completedDate"
 
-  	if !author.nil?
-  		if !author.imageURL.empty?
-  			item += "<div class=""authorPicture"" style=""float:left""><img src=""/assets/" + author.imageURL + "/></div>"
-  		end
-  		item +="<div class=""content_subtitle"">From " + author.name + "</div>" 
-  	end
+	def formatArticle
+		item = "<html><head><link href=""/assets/application.css"" rel=""stylesheet"" type=""text/css""></head><body>"
 
-  	item += "<div class=""content_text"">" + text + "</div>"
-  	item += "</body></html>"
+		if !author.nil?
+			if !author.imageURL.empty?
+				item += "<div class=""authorPicture"" style=""float:left""><img src=""/assets/" + author.imageURL + "/></div>"
+			end
+			item +="<div class=""content_subtitle""> " + created_at.to_s + "&nbsp;|&nbsp;By " + author.name + "</div>" 
+		end
 
-  end
+		item += "<div class=""content_text"">" + text + "</div>"
+		item += "</body></html>"
+	end
 
 end

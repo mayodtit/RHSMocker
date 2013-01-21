@@ -1,9 +1,12 @@
 RHSMocker::Application.routes.draw do
   resources :users
-  match "/users/:id/content" => "users#content"
   resources :contents
-
   resources :authors
+
+  match "/users/:id/read/:contentId" => "users#read"
+  match "/users/:id/dismiss/:contentId" => "users#dismiss"
+  match "/users/:id/later/:contentId" => "users#later"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
