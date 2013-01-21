@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+//Mappings for iOS fonts
+@font-face {font-family:ITC Franklin Gothic Medium Condensed; src: local("FranklinGothic-MedCnd");}
+@font-face {font-family:ITC Franklin Gothic Book Condensed; src: local("FranklinGothic-BookCnd");}
 
 // Source text: ITC Franklin Gothic Medium Condensed, 30 px, #f27522
 div.content_source {
