@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130121230849) do
+ActiveRecord::Schema.define(:version => 20130122174058) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -53,9 +53,11 @@ ActiveRecord::Schema.define(:version => 20130121230849) do
     t.string   "lastName"
     t.string   "gender"
     t.date     "birthDate"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
     t.string   "imageURL"
+    t.string   "uuid",         :limit => 32
+    t.string   "alternate_id", :limit => 36
   end
 
 end
