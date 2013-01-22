@@ -1,9 +1,11 @@
 class User < ActiveRecord::Base
-	attr_accessible :birthDate, :firstName, :gender, :lastName
+	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate
 
 	has_many :user_readings
 
 	has_many :contents, :through => :user_readings
+
+	has_many :content_authors
 
 	def readContent
 		readingList = Array.new

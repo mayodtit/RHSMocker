@@ -84,23 +84,45 @@ class UsersController < ApplicationController
 
   def read
     @user = User.find(params[:id])
-    @content = Content.find(params[:contentId])
 
-    @user.markRead(@content)
+    respond_to do |format|
+      if @user.markRead(Content.find(params[:contentId]))
+        format.html { redirect_to @user, notice: 'User reading was successfully updated.' }
+        format.json { head :no_content }
+      else
+        format.html { redirect_to @user, notice: 'User reading was not updated.'}
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
+
   end
 
   def dismiss
     @user = User.find(params[:id])
-    @content = Content.find(params[:contentId])
 
-    @user.markDismissed(@content)
+    respond_to do |format|
+      if @user.markDismissed(Content.find(params[:contentId]))
+        format.html { redirect_to @user, notice: 'User reading was successfully dismissed.' }
+        format.json { head :no_content }
+      else
+        format.html { redirect_to @user, notice: 'User reading was not dismissed.'}
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
   def later
-    @user = User.find(params[:id])
-    @content = Content.find(params[:contentId])
+   @user = User.find(params[:id])
 
-    @user.markReadLater(@content)
+    respond_to do |format|
+      if @user.markReadLater(Content.find(params[:contentId]))
+        format.html { redirect_to @user, notice: 'Content was set to read later.' }
+        format.json { head :no_content }
+      else
+        format.html { redirect_to @user, notice: 'User reading was not set to read later.'}
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
 end

@@ -1,13 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<% if !@content.author.nil? %>
-		<% if !@content.author.imageURL.empty? %>
+<% if !@content.content_authors.first.nil? %>
+		<% if !@content.content_authors.first.user.imageURL.empty? %>
 			<div class="authorPicture" style="float:left">
-				<%= image_tag @content.author.imageURL %>
+				<%= image_tag @content.content_authors.first.user.imageURL %>
 			</div>
 		<% end %>
 		<div class="content_subtitle"> 
-			<%= @content.created_at.to_s %>&nbsp;|&nbsp;By&nbsp;<%= @content.author.name %>
+			<%= @content.created_at.to_s %>&nbsp;|&nbsp;By&nbsp;<%= @content.content_authors.first.user.firstName %>&nbsp;<%= @content.content_authors.first.user.lastName %>
 		</div> 
 		<div class="content_text">
 			<%= @content.text %>
