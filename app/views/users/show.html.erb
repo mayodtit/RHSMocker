@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <%= @user.firstName %>&nbsp;<%= @user.lastName %>
-</p>
+<%= @user.firstName %>&nbsp;<%= @user.lastName %><br/>
+<%= @user.uuid %>
+
 
 <p>
   <% @user.readContent.each do | readingItem | %>

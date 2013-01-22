@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate
+	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :uuid
 
 	has_many :user_readings
 
