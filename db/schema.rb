@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130122233608) do
+ActiveRecord::Schema.define(:version => 20130123012518) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -58,6 +58,7 @@ ActiveRecord::Schema.define(:version => 20130122233608) do
     t.string   "imageURL"
     t.string   "uuid",       :limit => 32
     t.string   "install_id", :limit => 36
+    t.string   "email"
   end
 
 end

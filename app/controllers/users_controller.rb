@@ -16,8 +16,8 @@ class UsersController < ApplicationController
     @user = User.includes(:contents).find(params[:id])
 
     respond_to do |format|
-      format.html { render html: @user.readContent }
-      format.json { render json: @user.readContent }
+      format.html #{ render html: @user.readContent }
+      format.json { render json: @user}
     end
   end
 
@@ -121,6 +121,17 @@ class UsersController < ApplicationController
         format.html { redirect_to @user, notice: 'User reading was not set to read later.'}
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
+    end
+  end
+
+  # GET /users/1
+  # GET /users/1.json
+  def showReadingList
+    @user = User.includes(:contents).find(params[:id])
+
+    respond_to do |format|
+      format.html { redirect_to @user }
+      format.json { render json: @user.readContent}
     end
   end
 

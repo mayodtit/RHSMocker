@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id
+	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email
 
 	after_create :default_content
 

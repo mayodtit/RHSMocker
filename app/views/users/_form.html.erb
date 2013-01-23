@@ -20,6 +20,10 @@
     <%= f.text_field :lastName %>
   </div>
   <div class="field">
+    <%= f.label :email %><br />
+    <%= email_field("user", "email") %>
+  </div>
+  <div class="field">
     <%= f.label :gender %><br />
     <%= f.text_field :gender %>
   </div>
