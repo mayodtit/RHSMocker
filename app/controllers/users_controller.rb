@@ -94,7 +94,6 @@ class UsersController < ApplicationController
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
-
   end
 
   def dismiss
@@ -120,6 +119,20 @@ class UsersController < ApplicationController
         format.json { head :no_content }
       else
         format.html { redirect_to @user, notice: 'User reading was not set to read later.'}
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  def resetReadingList
+    @user = User.find(params[:id])
+
+    respond_to do |format|
+      if @user.resetReadingList
+        format.html { redirect_to @user, notice: 'User readings were reset.' }
+        format.json { head :no_content }
+      else
+        format.html { redirect_to @user, notice: 'User readings were not reset.'}
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end

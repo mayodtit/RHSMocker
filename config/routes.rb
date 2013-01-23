@@ -6,6 +6,7 @@ RHSMocker::Application.routes.draw do
   match "/users/:id/read/:contentId"    => "users#read"
   match "/users/:id/dismiss/:contentId" => "users#dismiss"
   match "/users/:id/later/:contentId"   => "users#later"
+  match "/users/:id/reset"              => "users#resetReadingList", :as =>  :reset_content
 
 
   # The priority is based upon order of creation:

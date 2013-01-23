@@ -3,17 +3,18 @@
 <%= @user.firstName %>&nbsp;<%= @user.lastName %><br/>
 <%= @user.install_id %>
 
-
-<p>
+<h3> Users Current Content List </h3>
+<%= link_to 'Reset', reset_content_url(:id => @user.id) %>
+<ul>
   <% @user.readContent.each do | readingItem | %>
-  	<%= @user.firstName %>&nbsp;has
+  	<li>	<%= @user.firstName %>&nbsp;has
   	<% if readingItem.read_date.nil? %>
   		 not
   	<% end %>read
   	<%= readingItem.content.headline %>
-  	<br>
+  	<br> </li>
   	<% end %>
-</p>
+</ul>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

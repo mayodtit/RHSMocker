@@ -10,6 +10,7 @@ class User < ActiveRecord::Base
 	has_many :content_authors
 
 	#called to create the install message and the welcome message
+	#nasty hack based on known ID's that makes me want to puke
 	def default_content
 		UserReading.create(user:self, content:Content.find(1), read_date: Time.zone.now.iso8601)
 		UserReading.create(user:self, content:Content.find(2))
@@ -59,6 +60,19 @@ class User < ActiveRecord::Base
 			userReading.save!
 		else
 			#throw an error on the size or skip on the already read
+		end
+	end
+
+	def resetReadingList
+		self.user_readings.each do |reading|
+
+			if reading.content_id != 1 #nasty hack to not reset installed message
+				reading.read_date 		= nil
+				reading.dismiss_date 	= nil
+				reading.read_later_count = 0
+				reading.read_later_date = nil
+				reading.save!
+			end
 		end
 	end
 
