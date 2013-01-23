@@ -6,10 +6,10 @@
 
 <p>
   <% @user.readContent.each do | readingItem | %>
-  	<%= @user.firstName %>&nbsp;has&nbsp;
-  	<% if readingItem.read_date.to_s.nil? %>
-  		 not&nbsp; 
-  	<% end %>read&nbsp;
+  	<%= @user.firstName %>&nbsp;has
+  	<% if readingItem.read_date.nil? %>
+  		 not
+  	<% end %>read
   	<%= readingItem.content.headline %>
   	<br>
   	<% end %>

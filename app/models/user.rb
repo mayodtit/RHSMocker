@@ -1,11 +1,19 @@
 class User < ActiveRecord::Base
 	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id
 
+	after_create :default_content
+
 	has_many :user_readings
 
 	has_many :contents, :through => :user_readings
 
 	has_many :content_authors
+
+	#called to create the install message and the welcome message
+	def default_content
+		UserReading.create(user:self, content:Content.find(1), read_date: Time.zone.now.iso8601)
+		UserReading.create(user:self, content:Content.find(2))
+	end
 
 	def readContent
 		readingList = Array.new
