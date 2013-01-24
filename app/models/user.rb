@@ -18,7 +18,7 @@ class User < ActiveRecord::Base
 
 	def readContent
 		readingList = Array.new
-		self.user_readings.includes(:content).each do |reading|
+		self.user_readings.order('read_date DESC').includes(:content).each do |reading|
 
 			if !reading.content.text.nil?
 				reading.content.text = reading.content.formatArticle
@@ -26,7 +26,7 @@ class User < ActiveRecord::Base
 			readingList << reading
 		end
 
-		readingList 
+		#readingList.sort_by{ |e| e[:read_date]}
 	end
 
 	def markRead(content)
