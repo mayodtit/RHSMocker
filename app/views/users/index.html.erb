@@ -2,8 +2,9 @@
 
 <table>
   <tr>
+    <th>(ID)</th>
     <th>First Name</th>
-    <th>Last Name</th>
+    <th>Last Name (ID)</th>
     <th>Email</th>
     <th>Install ID</th>
     <th>Gender</th>
@@ -14,6 +15,7 @@
 
 <% @users.each do |user| %>
   <tr>
+    <td><%= user.id %></td>
     <td><%= user.firstName %></td>
     <td><%= user.lastName %></td>
     <td><%= user.email %></td>
