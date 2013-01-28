@@ -14,6 +14,15 @@ group :production do
   gem 'pg'
 end
 
+#static security scanner
+#http://brakemanscanner.org/
+gem 'brakeman'
+
+#installing therubyracer, less-rails, and twitter-bootstrap-rails
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

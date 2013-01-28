@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130123012518) do
+ActiveRecord::Schema.define(:version => 20130126000101) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -48,17 +48,27 @@ ActiveRecord::Schema.define(:version => 20130123012518) do
     t.datetime "dismiss_date"
   end
 
+  create_table "user_weights", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "content_id"
+    t.decimal  "weight",     :precision => 6, :scale => 2, :default => 0.0
+    t.decimal  "bmi",        :precision => 5, :scale => 2, :default => 0.0
+    t.datetime "created_at",                                                :null => false
+    t.datetime "updated_at",                                                :null => false
+  end
+
   create_table "users", :force => true do |t|
     t.string   "firstName"
     t.string   "lastName"
     t.string   "gender"
     t.date     "birthDate"
-    t.datetime "created_at",               :null => false
-    t.datetime "updated_at",               :null => false
+    t.datetime "created_at",                                                              :null => false
+    t.datetime "updated_at",                                                              :null => false
     t.string   "imageURL"
     t.string   "uuid",       :limit => 32
     t.string   "install_id", :limit => 36
     t.string   "email"
+    t.decimal  "height",                   :precision => 6, :scale => 2, :default => 0.0
   end
 
 end

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  add_column: MyString
+  : 
+  : 
+  : 
+  =: MyString
+  : 
+  =: MyString
+  : 
+  =: MyString
+
+two:
+  add_column: MyString
+  : 
+  : 
+  : 
+  =: MyString
+  : 
+  =: MyString
+  : 
+  =: MyString

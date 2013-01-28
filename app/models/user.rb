@@ -1,9 +1,13 @@
 class User < ActiveRecord::Base
-	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email
+	#height is stored in meters
+	
+	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email, :height
 
 	after_create :default_content
 
 	has_many :user_readings
+
+	has_many :user_weights
 
 	has_many :contents, :through => :user_readings
 
@@ -26,7 +30,6 @@ class User < ActiveRecord::Base
 			readingList << reading
 		end
 
-		#readingList.sort_by{ |e| e[:read_date]}
 	end
 
 	def markRead(content)
@@ -74,6 +77,11 @@ class User < ActiveRecord::Base
 				reading.save!
 			end
 		end
+	end
+
+	def updateWeight(new_weight)
+		puts "NEW WEIGHT ====>" + new_weight
+		UserWeight.create(weight:new_weight, user:self)
 	end
 
 end

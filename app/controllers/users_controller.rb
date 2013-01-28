@@ -149,4 +149,20 @@ class UsersController < ApplicationController
     end
   end
 
+  def updateWeight
+    @user = User.find(params[:id])
+
+    respond_to do |format|
+      if @user.updateWeight(params[:weight])
+        format.html { redirect_to @user, notice: 'User weight was set.' }
+        format.json { head :no_content }
+      else
+        format.html { redirect_to @user, notice: 'User weight was not set.'}
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
+
+  end
+
+
 end
