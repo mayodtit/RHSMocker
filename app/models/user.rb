@@ -5,10 +5,13 @@ class User < ActiveRecord::Base
 
 	after_create :default_content
 
+	#Things the user has read
 	has_many :user_readings
 
+	#Weight Readings
 	has_many :user_weights
 
+	#All of the content assigned to this user
 	has_many :contents, :through => :user_readings
 
 	has_many :content_authors
@@ -32,8 +35,8 @@ class User < ActiveRecord::Base
 		readingList = Array.new
 		self.user_readings.order('read_date DESC').includes(:content).each do |reading|
 
-			if !reading.content.text.nil?
-				reading.content.text = reading.content.formatArticle
+			if !reading.content.body.nil?
+				reading.content.body = reading.content.formatArticle
 			end
 			readingList << reading
 		end

@@ -19,7 +19,7 @@ class Content < ActiveRecord::Base
 			item +="<div class=""content_subtitle""> " + created_at.to_s + "&nbsp;|&nbsp;By&nbsp;" + content_authors.first.user.firstName + "&nbsp;" + content_authors.first.user.lastName + "</div>" 
 		end
 
-		item += "<div class=""content_text"">" + text + "</div>"
+		item += "<div class=""content_text"">" + body + "</div>"
 		item += "</body></html>"
 	end
 

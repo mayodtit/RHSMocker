@@ -5,7 +5,8 @@ class UserReading < ActiveRecord::Base
   belongs_to :user
 
   def as_json(options)
-  	{:content_id => content.id, :content_headline => content.headline, :user_id => user_id, :read_date => read_date, :read_later_date => read_later_date, :dismiss_date => dismiss_date}
+  		{:content_id => content.id, :content_headline => content.headline, :user_id => user_id, :read_date => read_date,
+  		:read_later_date => read_later_date, :dismiss_date => dismiss_date}
   end
 
 end
