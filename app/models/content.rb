@@ -1,5 +1,5 @@
 class Content < ActiveRecord::Base
-	attr_accessible :headline, :text, :author, :contentsType
+	attr_accessible :headline, :body, :author, :contentsType
 
 	has_many :content_authors
 	has_many :users, :through => :content_authors
