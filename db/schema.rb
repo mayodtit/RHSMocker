@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130126000101) do
+ActiveRecord::Schema.define(:version => 20130129002510) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(:version => 20130126000101) do
 
   create_table "contents", :force => true do |t|
     t.string   "headline"
-    t.string   "text",         :limit => 25000
+    t.text     "body",         :limit => 25000
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
     t.integer  "author_id"

@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 	#height is stored in meters
-	
+
 	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email, :height
 
 	after_create :default_content
@@ -12,6 +12,14 @@ class User < ActiveRecord::Base
 	has_many :contents, :through => :user_readings
 
 	has_many :content_authors
+
+	def fullName
+		if !firstName.nil? && !lastName.nil?
+			fullname = firstName + ' ' + lastName
+		else
+			fullName = "Not Set"
+		end
+	end
 
 	#called to create the install message and the welcome message
 	#nasty hack based on known ID's that makes me want to puke

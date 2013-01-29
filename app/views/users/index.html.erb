@@ -1,28 +1,27 @@
-<h1>Listing users</h1>
 
 <table>
   <tr>
     <th>(ID)</th>
-    <th>First Name</th>
-    <th>Last Name (ID)</th>
+    <th>Name</th>
     <th>Email</th>
     <th>Install ID</th>
     <th>Gender</th>
     <th>Birth Date</th>
-    <th></th>
     <th></th>
   </tr>
 
 <% @users.each do |user| %>
   <tr>
     <td><%= user.id %></td>
-    <td><%= user.firstName %></td>
-    <td><%= user.lastName %></td>
+    <% if user.fullName.nil? %>
+        <td><%= link_to 'Show', user %></td>
+    <% else %>
+        <td><%= link_to user.fullName, user %></td>
+    <% end %>
     <td><%= user.email %></td>
     <td><%= user.install_id %></td>
     <td><%= user.gender %></td>
     <td><%= user.birthDate %></td>
-    <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
   </tr>
 <% end %>
