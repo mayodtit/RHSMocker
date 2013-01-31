@@ -1,8 +1,11 @@
 class User < ActiveRecord::Base
+	Pusher.app_id = '36367'
+	Pusher.key = 'f93e7c2a2a407ef7747b'
+	Pusher.secret = '513445887ae45c985287'
+
 	#height is stored in meters
-
 	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email, :height
-
+	
 	after_create :default_content
 
 	#Things the user has read
@@ -52,6 +55,8 @@ class User < ActiveRecord::Base
 		else
 			#throw an error on the size or skip on the already read
 		end
+		#TESTCODE
+		checkForNewContent
 	end
 
 	def markDismissed(content)
@@ -63,6 +68,8 @@ class User < ActiveRecord::Base
 		else
 			#throw an error on the size or skip on the already dismissed
 		end
+		#TESTCODE
+		checkForNewContent
 	end
 
 	def markReadLater(content)
@@ -75,6 +82,7 @@ class User < ActiveRecord::Base
 		else
 			#throw an error on the size or skip on the already read
 		end
+	
 	end
 
 	def resetReadingList
@@ -91,8 +99,15 @@ class User < ActiveRecord::Base
 	end
 
 	def updateWeight(new_weight)
-		puts "NEW WEIGHT ====>" + new_weight
 		UserWeight.create(weight:new_weight, user:self)
+	end
+
+	def checkForNewContent
+		#create something, add to user_Reading, push it out
+		fakeArticleID = Content.createFakeArticle()
+		fakeArticle = Content.find(fakeArticleID)
+		UserReading.create(user:self, content:fakeArticle)
+		Pusher['RHS_'+self.id.to_s].trigger('newcontent', {:content_id => fakeArticle.id, :content_type => fakeArticle.contentsType})
 	end
 
 end

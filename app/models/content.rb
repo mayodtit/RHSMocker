@@ -1,4 +1,5 @@
 class Content < ActiveRecord::Base
+	require 'lorem-ipsum'
 	attr_accessible :headline, :body, :author, :contentsType
 
 	has_many :content_authors
@@ -21,6 +22,13 @@ class Content < ActiveRecord::Base
 
 		item += "<div class=""content_text"">" + body + "</div>"
 		item += "</body></html>"
+	end
+
+	def self.createFakeArticle
+		fakeBody = LoremIpsum.generate(:type => "blog")
+		fakeArticle = Content.create(headline: "Lorum Title", contentsType:"message", body:fakeBody)
+		fakeArticle.save!
+		fakeArticle.id
 	end
 
 end

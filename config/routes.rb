@@ -4,9 +4,9 @@ RHSMocker::Application.routes.draw do
   resources :authors
 
   match "/users/:id/readinglist"        => "users#showReadingList"
-  match "/users/:id/read/:contentId"    => "users#read"
-  match "/users/:id/dismiss/:contentId" => "users#dismiss"
-  match "/users/:id/later/:contentId"   => "users#later"
+  match "/users/:id/read/:contentId"    => "users#read", :as => :markread
+  match "/users/:id/dismiss/:contentId" => "users#dismiss", :as => :dismiss
+  match "/users/:id/later/:contentId"   => "users#later", :as => :readlater
   match "/users/:id/reset"              => "users#resetReadingList", :as =>  :reset_content
   match "/users/:id/weight/:weight"     => "users#updateWeight"
 
