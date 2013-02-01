@@ -10,7 +10,7 @@
 			<%= @content.created_at.to_s %>&nbsp;|&nbsp;By&nbsp;<%= @content.content_authors.first.user.firstName %>&nbsp;<%= @content.content_authors.first.user.lastName %>
 		</div> 
 		<div class="content_text">
-			<%= @content.text %>
+			<%= @content.body %>
 		</div>
 <% end %>
 
