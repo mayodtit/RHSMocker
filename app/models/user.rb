@@ -52,6 +52,8 @@ class User < ActiveRecord::Base
 			userReading = userReadings.first 
 			userReading.read_date = Time.now
 			userReading.save!
+			notifyContentChange('read', content.id, content.contentsType)
+
 		else
 			#throw an error on the size or skip on the already read
 		end
@@ -65,6 +67,8 @@ class User < ActiveRecord::Base
 			userReading = userReadings.first 
 			userReading.dismiss_date = Time.now
 			userReading.save!
+			notifyContentChange('dismissed', content.id, content.contentsType)
+
 		else
 			#throw an error on the size or skip on the already dismissed
 		end
@@ -79,10 +83,10 @@ class User < ActiveRecord::Base
 			userReading.read_later_date, = Time.now
 			userReading.read_later_count = userReading.read_later_count + 1 #no ++ incrementor sucks
 			userReading.save!
+			notifyContentChange('readLater', content.id, content.contentsType)
 		else
 			#throw an error on the size or skip on the already read
 		end
-	
 	end
 
 	def resetReadingList
@@ -100,6 +104,10 @@ class User < ActiveRecord::Base
 
 	def updateWeight(new_weight)
 		UserWeight.create(weight:new_weight, user:self)
+	end
+
+	def notifyContentChange(type, contentID, contentType)
+		Pusher['RHS_'+self.id.to_s].trigger(type, {:content_id => contentID, :content_type => contentType})
 	end
 
 	def checkForNewContent
