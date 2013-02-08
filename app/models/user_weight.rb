@@ -3,6 +3,9 @@ class UserWeight < ActiveRecord::Base
 
 	belongs_to :user
 
+	#Validations
+	validates :weight, :presence => true
+
 	after_create do |variable|
 		self.updateBMI
 	end
