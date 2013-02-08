@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
 	Pusher.secret = '513445887ae45c985287'
 
 	#height is stored in meters
-	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email, :height
+	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email, :height, :phone, :generic_call_time
 	
 	after_create :default_content
 
@@ -19,6 +19,17 @@ class User < ActiveRecord::Base
 
 	has_many :content_authors
 
+	#Validations
+	#++++++++++++++
+	validates :install_id, :presence => true
+
+	validates :generic_call_time, :inclusion => { :in => %w(Morning Afternoon Evening),
+    :message => "%{value} is not a call time" }
+
+
+	#DEMOGRAPHIC and PHR Related methods
+	#+++++++++++++++++++++++++++++++++++
+
 	def fullName
 		if !firstName.nil? && !lastName.nil?
 			fullname = firstName + ' ' + lastName
@@ -26,6 +37,13 @@ class User < ActiveRecord::Base
 			fullName = "Not Set"
 		end
 	end
+
+	def updateWeight(new_weight)
+		UserWeight.create(weight:new_weight, user:self)
+	end
+
+	#CONTENT Related methods
+	#+++++++++++++++++++++++++++++++++++
 
 	#called to create the install message and the welcome message
 	#nasty hack based on known ID's that makes me want to puke
@@ -102,20 +120,22 @@ class User < ActiveRecord::Base
 		end
 	end
 
-	def updateWeight(new_weight)
-		UserWeight.create(weight:new_weight, user:self)
-	end
-
 	def notifyContentChange(type, contentID, contentType)
 		Pusher['RHS_'+self.id.to_s].trigger(type, {:content_id => contentID, :content_type => contentType})
 	end
 
 	def checkForNewContent
 		#create something, add to user_Reading, push it out
-		fakeArticleID = Content.createFakeArticle()
-		fakeArticle = Content.find(fakeArticleID)
-		UserReading.create(user:self, content:fakeArticle)
-		Pusher['RHS_'+self.id.to_s].trigger('newcontent', {:content_id => fakeArticle.id, :content_type => fakeArticle.contentsType})
+		if !hasMaxContent
+			fakeArticleID = Content.createFakeArticle()
+			fakeArticle = Content.find(fakeArticleID)
+			UserReading.create(user:self, content:fakeArticle)
+			Pusher['RHS_'+self.id.to_s].trigger('newcontent', {:content_id => fakeArticle.id, :content_type => fakeArticle.contentsType})
+		end
+	end
+
+	def hasMaxContent
+		self.user_readings.where(:read_date => nil, :dismiss_date => nil, :read_later_count => 0).count >= 7
 	end
 
 end

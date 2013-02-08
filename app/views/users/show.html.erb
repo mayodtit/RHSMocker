@@ -1,6 +1,26 @@
 
-<h1><%= @user.firstName %>&nbsp;<%= @user.lastName %><br/></h1>
+<h1><%= @user.firstName %>&nbsp;<%= @user.lastName %></h1><%= link_to 'Edit', edit_user_path(@user) %><br>
 <h2><%= @user.install_id %></h2>
+<h2><%= @user.email %></h2>
+<h2><%= @user.phone %></h2>
+<h2><%= @user.generic_call_time %></h2>
+<h2><%= @user.height %></h2>
+
+<table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="readingList">
+  <thead>
+    <th>Weight</th>
+    <th>BMI</th>
+  </thead>
+  <tbody>
+  <% @user.user_weights.each do | userWeight | %>
+      <tr> 
+        <td> <%= userWeight.poundsForKg(userWeight.weight) %> </td>
+        <td> <%= userWeight.bmi %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
 <%= link_to 'Reset All Content', reset_content_url(:id => @user.id) %>
 
 <p id="notice"><%= notice %></p>

@@ -12,16 +12,15 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :firstName %><br />
-    <%= f.text_field :firstName %>
-  </div>
-  <div class="field">
-    <%= f.label :lastName %><br />
-    <%= f.text_field :lastName %>
+    <%= f.label :firstName %><%= f.text_field :firstName %><%= f.label :lastName %><%= f.text_field :lastName %>
   </div>
   <div class="field">
     <%= f.label :email %><br />
     <%= email_field("user", "email") %>
+  </div>
+   <div class="field">
+    <%= f.label :phone %><br />
+    <%= f.text_field :phone %>
   </div>
   <div class="field">
     <%= f.label :gender %><br />
@@ -32,8 +31,7 @@
     <%= f.date_select :birthDate %>
   </div>
     <div class="field">
-    <%= f.label :install_id %><br />
-    <%= f.text_field :install_id %>
+    <%= f.label 'Install ID' %><%= @user.install_id %>
   </div>
   <div class="field">
     <%= f.label :height %> in cenitmeters<br />
