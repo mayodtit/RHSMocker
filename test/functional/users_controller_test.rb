@@ -18,7 +18,7 @@ class UsersControllerTest < ActionController::TestCase
 
   test "should create user" do
     assert_difference('User.count') do
-      post :create, user: { birthDate: @user.birthDate, firstName: @user.firstName, install_id: @user.install_id, lastName: @user.lastName }
+      post :create, user: { firstName: 'Jimbob', install_id: '134567', lastName: 'ClappCreate' }
     end
     assert_redirected_to user_path(assigns(:user))
   end
@@ -34,8 +34,8 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should update user" do
-    put :update, id: @user, user: { birthDate: @user.birthDate, firstName: @user.firstName, install_id: @user.install_id, lastName: @user.lastName }
-    assert_redirected_to user_path(assigns(:user))
+    put :update, id: @user, user: { birthDate: @user.birthDate, firstName: @user.firstName, install_id: @user.install_id, lastName:'Update Test'}
+    assert_redirected_to user_path
   end
 
 #  test "should destroy user" do
@@ -44,4 +44,10 @@ class UsersControllerTest < ActionController::TestCase
 #    end
 #    assert_redirected_to users_path
 #  end
+  
+  test "should add location to user" do
+    put :addLocation, id: @user, lat:'11.7894', long:'10.23456'
+    assert_redirected_to user_path
+  end
+
 end

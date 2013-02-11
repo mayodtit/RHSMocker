@@ -161,7 +161,20 @@ class UsersController < ApplicationController
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
+  end
 
+  def addLocation
+    @user = User.find(params[:id])
+
+    respond_to do |format|
+      if @user.addLocation(params[:lat], params[:long])
+        format.html { redirect_to @user, notice: 'User location was set.' }
+        format.json { head :no_content }
+      else
+        format.html { redirect_to @user, notice: 'User location was not set.'}
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
 
