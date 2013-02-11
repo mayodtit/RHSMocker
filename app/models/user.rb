@@ -26,6 +26,7 @@ class User < ActiveRecord::Base
 	validates :generic_call_time, :inclusion => { :in => %w(Morning Afternoon Evening),
     :message => "%{value} is not a call time" }
 
+    validates_length_of :phone, :in => 7..11, :allow_blank => true
 
 	#DEMOGRAPHIC and PHR Related methods
 	#+++++++++++++++++++++++++++++++++++
@@ -42,14 +43,18 @@ class User < ActiveRecord::Base
 		UserWeight.create(weight:new_weight, user:self)
 	end
 
+	def addLocation(lat, long)
+		UserLocation.create(user:self, lat:lat, long:long)
+	end
+
 	#CONTENT Related methods
 	#+++++++++++++++++++++++++++++++++++
 
 	#called to create the install message and the welcome message
 	#nasty hack based on known ID's that makes me want to puke
 	def default_content
-		UserReading.create(user:self, content:Content.find(1), read_date: Time.zone.now.iso8601)
-		UserReading.create(user:self, content:Content.find(2))
+		UserReading.create(user:self, content:Content.where("headline = 'Installed RHS'").first, read_date: Time.zone.now.iso8601)
+		UserReading.create(user:self, content:Content.where("headline = 'Welcome'").first)
 	end
 
 	def readContent
