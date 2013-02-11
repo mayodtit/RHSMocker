@@ -9,4 +9,5 @@ class UserReading < ActiveRecord::Base
   		:read_later_date => read_later_date, :dismiss_date => dismiss_date}
   end
 
+
 end

@@ -6,30 +6,34 @@
 @font-face {font-family:"ITC Franklin Gothic Medium Condensed"; src: local("FranklinGothic-MedCnd");}
 @font-face {font-family:"ITC Franklin Gothic Book Condensed"; src: local("FranklinGothic-BookCnd");}
 
-// Source text: ITC Franklin Gothic Medium Condensed, 30 px, #f27522
+div.content {
+    width:620px;
+}
+
 div.content_source {
 	font-family:"ITC Franklin Gothic Medium Condensed";
-	font-size:"30px";
-	color:"#f27522";
+	font-size:30px;
+	color:#f27522;
+    text-transform:uppercase;
+    padding-bottom:15px;
 }
 
-//Article title text: ITC Franklin Gothic Medium Condensed, 44 px, #4c4c4c
 div.content_title {
 	font-family:"ITC Franklin Gothic Medium Condensed";
-	font-size:"44px";
-	color:"#4c4c4c";
+	font-size:44px;
+	color:#4c4c4c;
+    padding-bottom:12px;
 }
 
-//Date/author text: ITC Franklin Gothic Book Condensed, 28 px, #999999
 div.content_subtitle {
 	font-family:"ITC Franklin Gothic Book Condensed";
-	font-size:"28px";
-	color:"#999999";
+	font-size:28px;
+	color:#999999;
+    padding-bottom:15px;
 }
 
-//Article body text: ITC Franklin Gothic Book Condensed, 34 px, #4c4c4c
 div.content_text {
 	font-family:"ITC Franklin Gothic Book Condensed";
-	font-size:"34px";
-	color:"#4c4c4c";
+	font-size:34px;
+	color:#4c4c4c;
 }

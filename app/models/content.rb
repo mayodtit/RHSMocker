@@ -24,11 +24,20 @@ class Content < ActiveRecord::Base
 		item += "</body></html>"
 	end
 
+#TO BE REMOVED 
+#TEST ONLY
+#====================
 	def self.createFakeArticle
 		fakeBody = LoremIpsum.generate(:type => "blog")
-		fakeArticle = Content.create(headline: "Lorum Title", contentsType:"message", body:fakeBody)
+		fakeArticle = Content.create(headline: self.headlineWithNumber(["Lorum", "Mayo", "Ipsum", "Healthy","Foo","WellCheck"]), contentsType:"message", body:fakeBody)
 		fakeArticle.save!
 		fakeArticle.id
 	end
+
+	def self.headlineWithNumber(words)
+   		words[rand(words.length)]+(rand(900)+100).to_s()+" Headline"
+	end
+
+		
 
 end
