@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130129002510) do
+ActiveRecord::Schema.define(:version => 20130209012718) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -37,6 +37,14 @@ ActiveRecord::Schema.define(:version => 20130129002510) do
     t.string   "contentsType"
   end
 
+  create_table "user_locations", :force => true do |t|
+    t.integer  "user_id"
+    t.decimal  "lat",        :precision => 10, :scale => 6
+    t.decimal  "long",       :precision => 10, :scale => 6
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
+  end
+
   create_table "user_readings", :force => true do |t|
     t.datetime "read_date"
     t.integer  "user_id"
@@ -50,7 +58,6 @@ ActiveRecord::Schema.define(:version => 20130129002510) do
 
   create_table "user_weights", :force => true do |t|
     t.integer  "user_id"
-    t.integer  "content_id"
     t.decimal  "weight",     :precision => 6, :scale => 2, :default => 0.0
     t.decimal  "bmi",        :precision => 5, :scale => 2, :default => 0.0
     t.datetime "created_at",                                                :null => false
@@ -62,13 +69,15 @@ ActiveRecord::Schema.define(:version => 20130129002510) do
     t.string   "lastName"
     t.string   "gender"
     t.date     "birthDate"
-    t.datetime "created_at",                                                              :null => false
-    t.datetime "updated_at",                                                              :null => false
+    t.datetime "created_at",                                                                     :null => false
+    t.datetime "updated_at",                                                                     :null => false
     t.string   "imageURL"
-    t.string   "uuid",       :limit => 32
-    t.string   "install_id", :limit => 36
+    t.string   "uuid",              :limit => 32
+    t.string   "install_id",        :limit => 36
     t.string   "email"
-    t.decimal  "height",                   :precision => 6, :scale => 2, :default => 0.0
+    t.decimal  "height",                          :precision => 6, :scale => 2, :default => 0.0
+    t.string   "phone"
+    t.string   "generic_call_time"
   end
 
 end

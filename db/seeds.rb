@@ -19,21 +19,21 @@ varkey  = User.create(firstName: "Prathibha", lastName: "Varkey", gender:"F" )
 installed = Content.create(
 	contentsType: 'message',
 	headline: "Installed RHS",
-	text:"Installed RHS")
+	body:"Installed RHS")
 
 ContentAuthor.create(user:shelly, content:installed)
 
 welcome = Content.create( 
 	contentsType: 'message',
-	headline: 'Welcome message from Sandra',
-	text:'<p>I''m Sandra, one of your RHS Health Advocates here to support you in your quest for a healthier, fuller, life. The more you use RHS, the smarter we will get in providing you a personalized health expierence and better care</p>'
+	headline: 'Welcome',
+	body:'<p>I''m Sandra, one of your RHS Health Advocates here to support you in your quest for a healthier, fuller, life. The more you use RHS, the smarter we will get in providing you a personalized health expierence and better care</p>'
 	)
 ContentAuthor.create(user:shelly, content:welcome)
 
 bpWeather = Content.create(
 	contentsType: 'article',
 	headline: "Weather alert: Low Temps and your Blood Pressure.",
-	text:"<p>Blood pressure generally is higher in the winter because low temperatures cause your blood vessels to narrow, which increases blood pressure because more pressure is needed to force blood through your narrowed veins and arteries.</p>"
+	body:"<p>Blood pressure generally is higher in the winter because low temperatures cause your blood vessels to narrow, which increases blood pressure because more pressure is needed to force blood through your narrowed veins and arteries.</p>"
 	)
 ContentAuthor.create(user:sheldon, content:bpWeather)
 
