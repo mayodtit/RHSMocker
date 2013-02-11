@@ -1,13 +1,22 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  firstName: MyString
-  lastName: 
-  gender: 
-  birthDate: 2013-01-13
+  firstName: Geoffrey
+  lastName: Clapp
+  gender: M
+  birthDate: 1980-01-13
+  install_id: 12345
 
 two:
-  firstName: MyString
-  lastName: 
-  gender: 
-  birthDate: 2013-01-13
+  firstName: Adam
+  lastName: Dole
+  gender: M
+  birthDate: 1981-05-14
+  install_id: 6789
+
+three:
+  firstName: Leanne
+  lastName: Stockwell
+  gender: F
+  birthDate: 1982-06-15
+  install_id: 132435

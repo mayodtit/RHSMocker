@@ -18,7 +18,7 @@ class ContentsControllerTest < ActionController::TestCase
 
   test "should create content" do
     assert_difference('Content.count') do
-      post :create, content: { headline: @content.headline, text: @content.text }
+      post :create, content: { headline: @content.headline, body: @content.body }
     end
 
     assert_redirected_to content_path(assigns(:content))
@@ -35,7 +35,7 @@ class ContentsControllerTest < ActionController::TestCase
   end
 
   test "should update content" do
-    put :update, id: @content, content: { headline: @content.headline, text: @content.text }
+    put :update, id: @content, content: { headline: @content.headline, body: @content.body }
     assert_redirected_to content_path(assigns(:content))
   end
 

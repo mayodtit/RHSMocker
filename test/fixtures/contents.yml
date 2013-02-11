@@ -1,9 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
+
 one:
-  headline: MyString
-  text: MyString
+  body: Welcome-Body
+  headline: Installed RHS
+  contentsType: message
 
 two:
-  headline: MyString
-  text: MyString
+  body: Welcome-Body
+  headline: Welcome
+  contentsType: message
+
+
