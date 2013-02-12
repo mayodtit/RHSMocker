@@ -24,7 +24,7 @@ class User < ActiveRecord::Base
 	validates :install_id, :presence => true
 
 	validates :generic_call_time, :inclusion => { :in => %w(Morning Afternoon Evening),
-    :message => "%{value} is not a call time" }
+    :message => "%{value} is not a call time" }, :allow_nil => true
 
     validates_length_of :phone, :in => 7..11, :allow_blank => true
 
@@ -47,26 +47,53 @@ class User < ActiveRecord::Base
 		UserLocation.create(user:self, lat:lat, long:long)
 	end
 
+	#Keywords (aka search history)
+	#+++++++++++++++++++++++++++++++++++
+	def keywords
+		keywords = []
+		#Has this user done any searches
+
+		#count < 7 and recently added anything to PHR
+
+		#count > 5 return, else add in two trending things
+
+		#count = 0, return default list
+		keywords = ContentKeywords.where(:default => true)
+
+	end
+
+
 	#CONTENT Related methods
 	#+++++++++++++++++++++++++++++++++++
 
 	#called to create the install message and the welcome message
 	#nasty hack based on known ID's that makes me want to puke
 	def default_content
-		UserReading.create(user:self, content:Content.where("headline = 'Installed RHS'").first, read_date: Time.zone.now.iso8601)
-		UserReading.create(user:self, content:Content.where("headline = 'Welcome'").first)
+		#if for some reason, the content was not created yet, then there is no default content
+		if !Content.where("headline = 'Installed RHS'").empty?
+			UserReading.create(user:self, content:Content.where("headline = 'Installed RHS'").first, read_date: Time.zone.now.iso8601)
+		end
+		if !Content.where("headline = 'Welcome'").empty?
+			UserReading.create(user:self, content:Content.where("headline = 'Welcome'").first)
+		end
 	end
 
 	def readContent
 		readingList = Array.new
-		self.user_readings.order('read_date DESC').includes(:content).each do |reading|
 
+		if !self.user_readings.empty?
+
+			self.user_readings.order('read_date DESC').includes(:content).each do |reading|
+					puts reading.content.id
+					puts reading.content.headline
+					puts reading.content.body
 			if !reading.content.body.nil?
 				reading.content.body = reading.content.formatArticle
 			end
 			readingList << reading
 		end
 
+		end
 	end
 
 	def markRead(content)

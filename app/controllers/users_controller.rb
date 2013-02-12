@@ -177,5 +177,14 @@ class UsersController < ApplicationController
     end
   end
 
+   def keywords
+    @user = User.find(params[:id])
+
+    respond_to do |format|
+      format.html { render html: @user.keywords}
+      format.json { render json: @user.keywords}
+    end
+  end
+
 
 end

@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: 'Flu Shot'
+  default: true
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
+two:
+  name: 'Diabetes'
+  default: true
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
+three:
+  name: 'Hypertension'
+  default: true
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
+four:
+  name: 'Healthy Eating'
+  default: true
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
+five:
+  name: 'Blue Spots'
+  default: false
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

@@ -10,6 +10,7 @@ RHSMocker::Application.routes.draw do
   match "/users/:id/reset"              => "users#resetReadingList", :as =>  :reset_content
   match "/users/:id/weight/:weight"     => "users#updateWeight"
   match "/users/:id/location/:lat/:long" => "users#addLocation"
+  match "/users/:id/keywords"           => "users#keywords"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

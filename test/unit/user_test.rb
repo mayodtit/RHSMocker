@@ -53,4 +53,11 @@ class UserTest < ActiveSupport::TestCase
   	!user.save
   end
 
+  test "should not return empty search terms" do
+  	user = User.new(firstName:'Geoff', lastName:'Clapp', install_id: '1234')
+  	!user.save
+  	assert_not_nil( user.keywords, "Failed: User keywords should never be nil" ) 
+  	assert !(user.keywords.empty?), "Failed: User search terms should never be empty"
+  	assert_equal 4, user.keywords.count, "Failed: New User should return default set"
+  end
 end
