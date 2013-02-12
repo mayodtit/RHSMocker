@@ -36,28 +36,31 @@
 		<th>Read Later Count</th>
 	</thead>
 	<tbody>
-	<% @user.readContent.each do | readingItem | %>
-  		<tr> 
-  			<td> <%= readingItem.content.headline %> </td>
-  			<td> <%= readingItem.content.id %></td>
-  			<% if readingItem.read_date.nil? && readingItem.dismiss_date.nil? %>
-  				<td> <%= link_to 'Mark Read', markread_url(:id => @user.id, :contentId => readingItem.content.id) %> </td>
-  			<% else %>
-  				<td> <%= readingItem.read_date %> </td>
-  			<% end %>
-  			<% if readingItem.dismiss_date.nil? && readingItem.read_date.nil? %>
-  				<td> <%= link_to 'Dismiss', dismiss_url(:id => @user.id, :contentId => readingItem.content.id) %> </td>
-  			<% else %>
-  				<td> <%= readingItem.dismiss_date %> </td>
-  			<% end %>
-  			<% if  readingItem.read_date.nil? && readingItem.dismiss_date.nil? %>
-  				<td> <%= link_to 'Read Later', readlater_url(:id => @user.id, :contentId => readingItem.content.id) %> <%= readingItem.read_later_date %>  </td>
-  			<% else %>
-  				<td> <%= readingItem.read_later_date %> </td>
-  			<% end %>
-  			<td> <%= readingItem.read_later_count %> </td>
-  		</tr>
-  	<% end %>
+    
+      <% @user.readContent.each do | readingItem | %>
+      <tr> 
+        <td> <%= readingItem.content.headline %> </td>
+        <td> <%= readingItem.content.id %></td>
+        <% if readingItem.read_date.nil? && readingItem.dismiss_date.nil? %>
+          <td> <%= link_to 'Mark Read', markread_url(:id => @user.id, :contentId => readingItem.content.id) %> </td>
+        <% else %>
+          <td> <%= readingItem.read_date %> </td>
+        <% end %>
+        <% if readingItem.dismiss_date.nil? && readingItem.read_date.nil? %>
+          <td> <%= link_to 'Dismiss', dismiss_url(:id => @user.id, :contentId => readingItem.content.id) %> </td>
+        <% else %>
+          <td> <%= readingItem.dismiss_date %> </td>
+        <% end %>
+        <% if  readingItem.read_date.nil? && readingItem.dismiss_date.nil? %>
+          <td> <%= link_to 'Read Later', readlater_url(:id => @user.id, :contentId => readingItem.content.id) %> <%= readingItem.read_later_date %>  </td>
+        <% else %>
+          <td> <%= readingItem.read_later_date %> </td>
+        <% end %>
+        <td> <%= readingItem.read_later_count %> </td>
+      </tr>
+ 
+    <% end %>
+	
   </tbody>
 </table>
 
