@@ -38,6 +38,4 @@ class Content < ActiveRecord::Base
    		words[rand(words.length)]+(rand(900)+100).to_s()+" Headline"
 	end
 
-		
-
 end

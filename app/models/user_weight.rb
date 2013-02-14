@@ -24,7 +24,7 @@ class UserWeight < ActiveRecord::Base
 			end
 	end
 
-#Braindamage - move to a utilities class
+	#Braindamage - move to a utilities class
 	def metersForInches(inches)
 		meters = inches * 0.0254
 	end

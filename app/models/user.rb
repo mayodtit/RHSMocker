@@ -4,8 +4,7 @@ class User < ActiveRecord::Base
 	Pusher.secret = '513445887ae45c985287'
 
 	#height is stored in meters
-	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email, :height, :phone, :generic_call_time
-	
+	attr_accessible :firstName, :lastName, :imageURL, :gender, :birthDate, :install_id, :email, :phone, :generic_call_time
 	after_create :default_content
 
 	#Things the user has read
@@ -37,6 +36,13 @@ class User < ActiveRecord::Base
 		else
 			fullName = "Not Set"
 		end
+	end
+
+	def height(uom)
+		if !uom.nil? || !uom == "in"
+			height = inchesForMeters(:height/100)
+		else
+			height = :height/100
 	end
 
 	def updateWeight(new_weight)
