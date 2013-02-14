@@ -38,12 +38,13 @@ class User < ActiveRecord::Base
 		end
 	end
 
-	def height(uom)
-		if !uom.nil? || !uom == "in"
-			height = inchesForMeters(:height/100)
-		else
-			height = :height/100
-	end
+	#def height(uom)
+	#	if !uom.nil? || !uom == "in"
+	#		height = inchesForMeters(:height/100)
+	#	else
+	#		height = :height/100
+	#	end
+	#end
 
 	def updateWeight(new_weight)
 		UserWeight.create(weight:new_weight, user:self)
