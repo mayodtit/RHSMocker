@@ -11,7 +11,11 @@
   <tr>
     <td><%= link_to content.title, content %></td>
     <td><%= content.contentsType %></td>
-    <td><%= content.abstract.html_safe %></td>
+    <% if content.abstract.nil? %>
+      <td> </td>
+    <% else %>
+      <td><%= content.abstract.html_safe %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
